@@ -1,0 +1,57 @@
+<html>
+    
+    <head>
+        <title>Operadores Matemáticos</title>
+        <script src="./matematica.js"></script>
+        <script src="./main.js"></script>
+        
+    </head>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+            font: normal 25pt Arial;
+        }
+    </style>
+    <style>
+        label{
+            color:rgb(86, 189, 3)
+        }
+        select{
+            color: rgb(30, 167, 2);
+        }
+        input{
+            color:rgb(7, 167, 20)
+        }
+        output{
+            color:rgb(10, 182, 62)
+        }
+
+    </style>
+    <body>
+        <form>
+            <label for="tipoOperacao">Tipo Operação</label>
+            <select name="tipoOepracao" id="tipoOperacao" style="width: 10%;">
+                <option value="dividir">Dividir</option>
+                <option value="subtrair">Subtrair</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="somar">Somar</option>
+                <option value="porcentagem">Porcentagem</option>
+                <option value="expotencial">Expotencial</option>
+            </select>
+            <br />
+            <label for="valor1">Valor1</label>
+            <input type="number" id="valor1" >
+            <br />
+            <label for="valor2">Valor2</label>
+            <input type="number" id="valor2" >
+            <br />
+            <br />
+            <input type="button" value="calcular" id="btnCalcular" style="width: 20%;">
+            <input type="reset" value="limpar" id="btnLimpar" style="width: 20%;">
+            <br />
+            <output id= "resultado" >Aqui vai o resultado!! </output>
+        </form>
+        
+    </body>
+</html>
+

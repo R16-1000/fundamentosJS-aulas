@@ -1,0 +1,95 @@
+===============================================================================================
+COMENTARIOS
+
+//comentario em uma só linha
+
+/**
+ * comentario de varias linhas ou informativo
+ *  
+ */
+
+ // ignora o código da linha
+
+ let nome = "x" //comentario após código
+===============================================================================================
+STRING
+toda vez que for falado a palavra String ela quer dizer TEXTO
+EX: "xxx" 'xxx' `xxx` "100"
+
+NUMBER
+todo vez que for falado a palavra NUMBER ela quer dizer NÚMERO
+EX: 1 1.1 01.10 0.0001
+===============================================================================================
+OPERADORES
+
+aritméticos
+
+Adiçao           1+1
+Subtração        2-4
+Multiplicação    2*4
+Divisão          2/4
+resto da divisão 2%4    6/4=2
+Exponenciação    2**4   2*2*2*2=16 vai elevar 2 a 4º potência 
+
+os mais usados em programação
+algaritimos ou operadores de comparação
+para saber o tipo de valor ou para tomar alguma decisão dentro de um fluxo de dados
+
+Menor que           1 < 2
+Maior que           2 > 4
+Igual á             1 === 1
+Diferente de        1 !== -1
+Menor ou lgual que  10 <= 10
+Maior ou igual que  5 >= 4
+Ou  (idade <18) || (idade >25) vdd ou vdd = um dos 2 estando vdd a operação está valida
+F   (nome === "Frick") && (idade <25)  vdd e vdd =  os 2 tem que ser vdd para validar a operação
+================================================================================================
+OPERADORES DE COMPARAÇãO
+retorna o valor verdadeiro (true) ou falso (false)  
+
+O que será falso
+
+false
+0
+[]
+""
+''
+null
+undefined
+NaN
+
+O que será verdadeiro
+
+true
+1
+-1
+0.5
+"0"
+=================================================================================================
+LISTAS, VETORES OU MATRIZES = Array
+
+sempre começa do 0
+
+índice      nome
+  0         bulbasauro
+  1         pikachu
+  2         squirtle
+  3         charmander
+
+para criar uma lista no js, usamos colchetes []
+EX:
+
+[
+    "bulbasauro",
+    "pikachu",
+    "squirtle",
+    "charmander",
+]
+
+[0] === "bulbasauro"
+[1] === "pikachu"
+[2] === "squirtle"
+[3] === "charmander"
+
+se tentarmos acessar uma posisão que não existe ela vai aparecer como:
+undefined === indefinido, não existe
